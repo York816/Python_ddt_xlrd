@@ -4,7 +4,7 @@ import unittest
 
 @ddt
 class Test(unittest.TestCase):
-    name = [['橙子', '橘子'], ['柠檬', '柚子']]
+    name = [['橙子', '橘子'], ['柠檬', '柚子'], ['苹果', '桃子']]
 
     @data(*name)
     @unpack
